@@ -71,4 +71,35 @@ const posts = [
   },
 ];
 
-export { users, posts };
+const likes = [
+  {
+    userId: "1",
+    postId: "2",
+  },
+  {
+    userId: "1",
+    postId: "3",
+  },
+  {
+    userId: "2",
+    postId: "1",
+  },
+  {
+    userId: "2",
+    postId: "3",
+  },
+  {
+    userId: "2",
+    postId: "5",
+  },
+  {
+    userId: "3",
+    postId: "1",
+  },
+  {
+    userId: "3",
+    postId: "5",
+  },
+];
+
+export { users, posts, likes };
